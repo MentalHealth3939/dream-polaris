@@ -1,0 +1,25 @@
+.news-text-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow-y: auto;
+}
+
+.news-item-content{
+    padding: 0.5em;
+    width: 60em;
+    margin: 0px auto;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+}
+
+.news-item:hover{
+    background-color: transparent;
+    cursor: default;
+}
+
+@media (max-width: 800px){
+    .news-item-content{
+        width: 100%;
+    }
+}

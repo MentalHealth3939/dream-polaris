@@ -1,0 +1,96 @@
+.disco-container{
+    height: 0px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.disco-items-container{
+    height: 100%;
+    width: 80rem;
+    margin: 0px auto;
+    display: grid;
+    justify-content: center;
+   /* grid-template-columns: repeat(3, 33%);*/
+   grid-template-columns: repeat(auto-fill, 18rem);
+    overflow: auto;
+    grid-gap: 1em;
+}
+
+.news-image-container{
+    background-image: none;
+}
+
+.disco-item{
+    height: 23rem;
+    width: 18rem;
+    padding: 1em;
+    text-align: center;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.disco-item:hover{
+    background-color: var(--light-gold);
+}
+
+.disco-item div{
+    padding-bottom: 1em;
+}
+
+.disco-item .cover-image{
+    width: 16rem;
+    height: 16rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em;
+}
+
+.disco-item:nth-child(1) .cover-image{
+    background-image: url(cd-1.jpg);
+}
+.disco-item:nth-child(2) .cover-image{
+    background-image: url(cd-2.jpg);
+}
+.disco-item:nth-child(3) .cover-image{
+    background-image: url(cd-3.jpg);
+}
+.disco-item:nth-child(4) .cover-image{
+    background-image: url(cd-4.jpg);
+}
+.disco-item:nth-child(5) .cover-image{
+    background-image: url(cd-5.jpg);
+}
+.disco-item:nth-child(6) .cover-image{
+    background-image: url(cd-6.jpg);
+}
+.disco-item:nth-child(7) .cover-image{
+    background-image: url(cd-7.jpg);
+}
+.disco-item:nth-child(8) .cover-image{
+    background-image: url(cd-8.jpg);
+}
+.disco-item:nth-child(9) .cover-image{
+    background-image: url(cd-9.jpg);
+}
+.disco-item:nth-child(10) .cover-image{
+    background-image: url(cd-10.jpg);
+}
+.disco-item:nth-child(11) .cover-image{
+    background-image: url(cd-11.jpg);
+}
+.disco-item:nth-child(12) .cover-image{
+    background-image: url(cd-12.jpg);
+}
+
+.release-type{
+    padding: 0.2em;
+    background-color: var(--elegant-dark);
+    color: white;
+}
+
+@media (max-width: 1300px){
+    .disco-items-container{
+        width: 100%;
+    }
+}
