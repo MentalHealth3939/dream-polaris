@@ -32,7 +32,7 @@ color: inherit;
     display: flex;
     animation: 0.1s closure  6.2s linear forwards;
     opacity: 1;
-    display: none;
+    /*display: none;*/
 }
 
 
