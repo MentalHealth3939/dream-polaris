@@ -37,7 +37,7 @@ color: inherit;
 
 
 .curtain{
-    width: 12.5%;
+    width: 10%;
     height: 100%;
     background-color: white;
     transform-origin:  bottom;
@@ -67,6 +67,12 @@ color: inherit;
 }
 .curtain:nth-child(8){
     animation: 0.5s curtain-1  5.8s linear forwards;
+}
+.curtain:nth-child(9){
+    animation: 0.5s curtain-1  5.9s linear forwards;
+}
+.curtain:nth-child(10){
+    animation: 0.5s curtain-1  6s linear forwards;
 }
 
 
